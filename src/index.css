@@ -1,3 +1,9 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,4 +26,23 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
+}
+
+.main {
+  background-color: brown;
+  background-image: linear-gradient(to bottom, #062d14, black);
+  border-radius: 15px;
+  flex: 1;
+  margin: 0 10px 10px;
+  padding: 20px;
+}
+
+.main__texts {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__link:hover {
+  text-decoration: underline;
 }
